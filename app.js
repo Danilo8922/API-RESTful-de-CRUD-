@@ -1,6 +1,6 @@
 require('dotenv').config()
 const express = require('express')
-const clientesRoutes = require('./routes/clientes')
+const clientesRoutes = require('./api-clientes/src/routes/clientes')
 
 const app = express()
 app.use(express.json())

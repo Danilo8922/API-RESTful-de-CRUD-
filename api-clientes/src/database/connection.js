@@ -1,5 +1,6 @@
 require('dotenv').config()
 const knex = require('knex')
+console.log('DB_PASSWORD:', process.env.DB_PASSWORD);
 
 const connection = knex({
     client: 'pg',
